@@ -1,130 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <!--header of the webpage. This is where the title of the page will go-->
-    <video autoplay muted loop id="Background_Video">
-        <source src="videos/universe.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-        </video>
-        <div class="content">
-            <section id="header">
-                <nav id="navbar">
-                    <header><li><mark>Mark Sterrenberg</mark></li></header>
-                    <ul>
-                        <a href="index.html"><li>About Me</li></a>
-                        <a href="portfolio.html"><li>Portfolio</li></a>
-                        <a href="important_links.html"><li>Important Links</li></a>
-                        <a href="contact.html"><li>Contact</li></a>
-                    </ul>
-                </nav>
-            </section>   
-            <br>
-            <section id="body">
-            <div class="portfolio">
-                <h1 class="header_portfolio">Portfolio<br></h1>
-                <br>
-                <table class="table">
-                    <tr>
-                        <td>    
-                        <div class="container">
-                                    <img src="https://via.placeholder.com/150" alt="Nature" style="width:150px;">
-                                    <div class="content">
-                                      <h4>Project 1</h4>
-                                    </div>
-                                  </div>
-                        </td>
-                        <td>    
-                                <div class="container">
-                                            <img src="https://via.placeholder.com/150" alt="Nature" style="width:150px;">
-                                            <div class="content">
-                                              <h4>Project 2</h4>
-                                            </div>
-                                          </div>
-                        </td>
-                        <td>    
-                                <div class="container">
-                                            <img src="https://via.placeholder.com/150" alt="Nature" style="width:150px;">
-                                            <div class="content">
-                                              <h4>Project 3</h4>
-                                            </div>
-                                          </div>
-                                </td>
-                                <td>    
-                                        <div class="container">
-                                                    <img src="https://via.placeholder.com/150" alt="Nature" style="width:150px;">
-                                                    <div class="content">
-                                                      <h4>Project 4</h4>
-                                                    </div>
-                                                  </div>
-                                        </td>
-                                        <td>    
-                                                <div class="container">
-                                                            <img src="https://via.placeholder.com/150" alt="Nature" style="width:150px;">
-                                                            <div class="content">
-                                                              <h4>Project 5</h4>
-                                                            </div>
-                                                          </div>
-                                                </td>
-                    </tr>
-                    <tr>
-                            <td>    
-                                    <div class="container">
-                                                <img src="https://via.placeholder.com/150" alt="Nature" style="width:150px;">
-                                                <div class="content">
-                                                  <h4>Project 6</h4>
-                                                </div>
-                                              </div>
-                                    </td>
-                                    <td>    
-                                            <div class="container">
-                                                        <img src="https://via.placeholder.com/150" alt="Nature" style="width:150px;">
-                                                        <div class="content">
-                                                          <h4>Project 7</h4>
-                                                        </div>
-                                                      </div>
-                                            </td>
-                                            <td>    
-                                                    <div class="container">
-                                                                <img src="https://via.placeholder.com/150" alt="Nature" style="width:150px;">
-                                                                <div class="content">
-                                                                  <h4>Project 8</h4>
-                                                                </div>
-                                                              </div>
-                                                    </td>
-                                                    <td>    
-                                                            <div class="container">
-                                                                        <img src="https://via.placeholder.com/150" alt="Nature" style="width:150px;">
-                                                                        <div class="content">
-                                                                          <h4>Project 9</h4>
-                                                                        </div>
-                                                                      </div>
-                                                            </td>
-                                                            <td>    
-                                                                    <div class="container">
-                                                                                <img src="https://via.placeholder.com/150" alt="Nature" style="width:150px;">
-                                                                                <div class="content">
-                                                                                  <h4>Project 10</h4>
-                                                                                </div>
-                                                                              </div>
-                                                                    </td>
-        
-                    </tr>
-                </table>
-                <br>
+  <!--header of the webpage. This is where the title of the page will go-->
+  <video autoplay muted loop id="Background_Video">
+    <source src="videos/universe.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="content">
+    <section id="header">
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">Mark Sterrenberg</a>
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="important_links.html">Links</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <!-- Dropdown -->
+          </ul>
+          </li>
+          </ul>
+          <!-- Links -->
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             </div>
-            </section>    
-            <section id="footer">
-                <h2>&copy SMU Coding Bootcamp 2019</h2>
-            </section>
-        </div>  
+          </form>
+        </div>
+        <!-- Collapsible content -->
+      </nav>
+      <!--/.Navbar-->
+    </section>
+    <br>
+    <section id="body">
+
+    </section>
+    <section id="footer">
+      <div class="footer-copyright text-center py-3">© 2019 SMU Bootcamp</div>
+    </section>
+  </div>
 </body>
+
 </html>
